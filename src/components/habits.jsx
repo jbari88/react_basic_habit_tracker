@@ -17,7 +17,7 @@ class Habits extends Component {
     };
 
     handleDelete = habit => {
-        this.props.handleDelete(habit);
+        this.props.onDelete(habit);
     };
 
     handleAdd = name => {
